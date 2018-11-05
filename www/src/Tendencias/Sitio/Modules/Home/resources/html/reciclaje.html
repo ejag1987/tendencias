@@ -1,0 +1,21 @@
+<section class="section table">
+    <div class="listado box box-border-info ">
+        <h1 class="title is-4">Listado de contactos</h1>
+        <div id="listado-contactos" class="listado-contactos">
+            <div class="columns item-contacto">
+                <div class="column is-4"> Mail </div>
+                <div class="column"> Cliente </div>
+                <div class="column"> Nombre </div>
+                <div class="column"> Origen </div>
+                <div class="column "> Acción </div>
+            </div>
+            <div id="contenedor-contactos" class="contenido-tiendas contenido-pagina superior">
+                {#TABLA#}
+            </div>
+        </div>
+        <br>
+        <button type="button" id="eliminar" class="button is-danger cerrar-contacto" data-id="{#ID_USUARIO#}">Volver</button>
+    </div>
+
+    <div id="bloque-restaura" class="edicion"></div>
+</section>

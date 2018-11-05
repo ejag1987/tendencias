@@ -1,0 +1,36 @@
+{
+  "name": "norgistics/Sitio",
+  "license": "",
+  "type": "project",
+    "description": "Sitio web DLP",
+    "keywords": [],
+    "homepage": "http://www.norgistics.cl",
+    "authors": [
+      {
+        "name": "Alvaro Somoza",
+        "email": "asomoza@extend.cl",
+        "homepage": "http://www.extend.cl"
+      }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "vendor-dir": "./vendor"
+    },
+    "require": {
+        "php": ">=5.5",
+        "zcode/lighting" : "dev-master",
+        "phpmailer/phpmailer": "~5.2",
+    "phpoffice/phpspreadsheet": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+          "Tendencias\\Sitio\\": "src/Tendencias/Sitio"
+        }
+    },
+    "repositories" : [
+        {
+            "type" : "vcs",
+            "url" : "git@gitlab.zcode.cl:zcode/lighting.git"
+        }
+    ]
+}

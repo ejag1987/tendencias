@@ -1,0 +1,18 @@
+.header-admin {
+    margin-top: 0;
+    width: 100%;
+}
+
+
+
+.navegador {
+    padding: 0 0.75rem;
+}
+
+.usuario {
+    text-transform: capitalize;
+}
+
+.usuario .content {
+    margin-left: 0.3rem;
+}
